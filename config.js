@@ -21,15 +21,15 @@ global.APIKeys = {
 }
 ////////////////////////////////////////////////////|:|             OWNER DETAILS             |:|//////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-global.session = process.env.SESSION_ID || 'PUT HERE',
-global.ownername = process.env.OWNER_NAME === undefined ? "DarkWinzo" : process.env.OWNER_NAME
-let fake = process.env.OWNER_NUMBER === undefined ? '94775200935' : process.env.OWNER_NUMBER
+global.session = process.env.SESSION_ID || 'ckFHMVpyZkM=',
+global.ownername = process.env.OWNER_NAME === undefined ? "[ᴿᴵʸᴬᴸ 𝙺𝙸𝙽𝙶 🅳𝙰𝚁𝙺 𝙳𝙴𝚅𝙸𝙻 ]" : process.env.OWNER_NAME
+let fake = process.env.OWNER_NUMBER === undefined ? '94768462285' : process.env.OWNER_NUMBER
 global.owner = [`${fake}`]
 global.ownernumber = [`${fake}`]
 global.premium = [`${fake}`]
 global.anticall = process.env.ANTICALL === undefined ? 'false' : process.env.ANTICALL
 global.packname = process.env.PACK_NAME === undefined ? 'Queen-MD' : process.env.PACK_NAME
-global.author = process.env.STICKER_AUTHOR_NAME === undefined ? 'DarkWinzo' : process.env.STICKER_AUTHOR_NAME
+global.author = process.env.STICKER_AUTHOR_NAME === undefined ? '𝙳𝙰𝚁𝙺 🅳𝙴𝚅𝙸𝙻 𝚆𝙿 𝙱𝙾𝚃 ࿐' : process.env.STICKER_AUTHOR_NAME
 global.pmblock = process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK
 global.chatbot_pm = process.env.PM_CHATBOT === undefined ? 'false' : process.env.PM_CHATBOT
 global.chatbot_group = process.env.GROUP_CHATBOT === undefined ? 'false' : process.env.GROUP_CHATBOT
